@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841729426789",
+    "project_id": "motor-analyzer",
+    "storage_bucket": "motor-analyzer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841729426789:android:0e4d0a55149ce424c20d8c",
+        "android_client_info": {
+          "package_name": "com.example.motor_analyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841729426789-l2vj1pl7el4c08g9e3tj4727udf8oq2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv-35I6JIOffYdQ2uo6HejyCl4iivf63E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841729426789-l2vj1pl7el4c08g9e3tj4727udf8oq2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+name: motor_analyzer_final
+description: A modern app for motor sound analysis with Firebase authentication.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.2'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  google_sign_in: ^6.3.0  # Ensure this is present and compatible
+  flutter_sound: ^9.28.0
+  file_picker: ^10.2.0
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  logger: ^2.4.0
+  tflite_flutter: ^0.11.0
+  intl: ^0.18.0
+  permission_handler: ^11.4.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  firebase_auth_mocks: ^0.14.2
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/final_model.tflite
+    - assets/labels.txt
+    - assets/logo.png
